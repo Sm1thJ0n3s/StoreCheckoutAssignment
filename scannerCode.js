@@ -55,15 +55,15 @@ const barcodes = {
     "718103230759":{
         name: "Spiral Notebook",
         price: 1.99
-    },
-    "096619756803":{
-        name: "KRKLND WATR BTTLE",
-        price: 1.05
-    },
-    "07826405":{
-        name: "CRM RB SODA CAN",
-        price: 1.21
-    }
+    }//,
+    // "096619756803":{
+    //     name: "KRKLND WATR BTTLE",
+    //     price: 1.05
+    // },
+    // "07826405":{
+    //     name: "CRM RB SODA CAN",
+    //     price: 1.21
+    // }
 }
 
 // Variables of item info, the amount of item, and creation of customer cart
