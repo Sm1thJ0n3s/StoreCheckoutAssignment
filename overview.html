@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Register Workshop </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scannerCode.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <p>Welcome to Sun Sash Shop!</p>
+        <b>Cashier Checkout</b>
+        <div class="barcodeContainer">
+            <p class="barcodeText"> Barcode Scan Product: </p>
+            <input type="text" id="barcodeHolder">
+        </div>
+        <div class="qualityContainer">
+            <p class="quantityText"> Quantity: </p>
+            <input type="number" id="quantityHolder" class="quantity">
+        </div>
+        <div class="addCartHolder">
+            <button class="cartAddingBtn" id="addingItemBtn"> Add To Cart </button>
+        </div>
+        <div>
+            <h1 class="cartTitle"> Shopping Cart </h1s>
+            <div class="itemData">
+                <h4> Item </h4>
+                <h4> Price </h4>
+                <h4> Quantity </h4>
+            </div>
+        </div>
+        <div class="itemContainer" id="itemHolder">
+            
+        </div>
+        <p class="totalPrice" id="totalPrice"> Your total is $0</p>
+        <div class="checkoutHolder">
+            <button class="checkoutBtn" id="checkoutBtn">Checkout</button>
+        </div>
+        <div id="notExistText"></div>
+        <div id="grandTotalHolder"></div>
+    </div>
+</body>
+</html>
